@@ -1,0 +1,56 @@
+.thumbnail {
+  height :400px;
+  width:500px;
+  border : 7px solid black;
+  padding:5px;
+}
+
+body {
+  text-align:center;
+ font-style:italic;
+}
+#welcome {
+  padding:1px;
+   color:red;
+   background-color:lime;
+        z-index:3;
+        font-family: 'Carattere', cursive;
+}
+#hobby {
+   background-color:#64B5F6;
+}
+#festivals {
+   background-color:#FFEE58;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.items:hover {
+    background-color:dodgerblue;
+}
+.menuhead {
+    cursor:pointer;
+   color:black;
+    list-style: none;
+    font-family: 'Carattere', cursive;
+    font-size: 15px;
+    z-index:4;
+    right: 15px;
+    top:10px;
+    position:absolute;
+}
+.items{
+    float:left;
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+#logo{
+  border-radius:500px;
+}
