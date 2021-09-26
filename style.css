@@ -1,25 +1,74 @@
+.thumbnail {
+  height :400px;
+  width:500px;
+  border : 7px solid black;
+  padding:5px;
+}
 
-	body {
-	  text-align: center;
-	  background-color: #f0e8c5;
-	}
+body {
+  text-align:center;
+ font-style:italic;
+}
+#welcome {
+  padding:1px;
+   color:red;
+   background-color:lime;
+        z-index:3;
+      font-family: 'Carattere', cursive;
+  font-size:30px;
+}
+#hobby {
+   background-color:#64B5F6;
+}
+#festivals {
+   background-color:#FFEE58;
+  
+}
+#Stories {
+   background-color:#41e805;
+}
+#City {
+   background-color:#f5ec42;
+}
+#Music {
+   background-color:#64B5F6;
+}
+#Nature {
+   background-color:#FFEE58;
+  
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+.items:hover {
+    background-color:dodgerblue;
+}
+.menuhead {
+     list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+  position:fixed;
+}
+.items{
+    float:left;
+     padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  font-size:15px;
 
-	div {
-	  margin-top: 15px;
-	}
-
-    
-	.image-section {
-	display: flex;
- justify-content:center;
-	}
-
-	.section-style {
-    margin-right: 25px;
-	  margin-left: 25px;
-		background-color: white;
-	}
-img{
-  height:350px;
-  width:600px;
+}
+#logo{
+  border-radius:500px;
+}
+#Inspiration {
+   background-color:#41e805;
 }
