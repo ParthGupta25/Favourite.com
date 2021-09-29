@@ -48,22 +48,28 @@ body {
     background-color:dodgerblue;
 }
 .menuhead {
-     list-style: none;
-    font-family:cursive;
-   float:right;
+    cursor:pointer;
+   color:black;
+    list-style: none;
+    font-size: 15px;
+    z-index:4;
     top:10px;
-    right:30px;
-    cursor: pointer;
-    color:black;
-  position:fixed;
+    position:absolute;
+    top:0px;
+    position:fixed;
+    width:100%;
+    background-color: #3c3c3d;
+    margin-top:0px;
+    text-align:center;
 }
 .items{
-    float:left;
      padding-left: 10px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-top: 5px;
-  font-size:15px;
+    display: inline;
+    text-align: center;
 
 }
 #logo{
@@ -71,4 +77,29 @@ body {
 }
 #Inspiration {
    background-color:#41e805;
+}
+#Web {
+   background: linear-gradient(#4bdee3 0%, #18ed74 100%);
+}
+#Multi {
+   background: linear-gradient(#41e805 0%, grey 100%);
+}
+a {
+  text-decoration:none;
+  color:white;
+}
+#Contact{
+  background-color:	#87CEEB;
+}
+#Gallery{
+  background-color:	#87CEEB;
+}
+.blank h3{
+    display:inline;
+}
+#Contact a{
+ color:black;
+}
+#References{
+    background-color:lightblue;
 }
